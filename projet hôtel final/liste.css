@@ -1,0 +1,91 @@
+#header{
+height: 60px;
+width: 100%;
+background-color: #ccc;
+
+}
+.logo{
+    width:50px;
+    height: 50px;
+    margin-left: 35%;
+   
+}
+.name{
+    text-align: center;
+    }
+    
+.f{
+    width: 40px;
+  
+    float: left;
+    margin: -3px;
+    padding:0;
+
+    
+}
+#d{
+    margin-left: 65%;
+    margin-top: -100px;
+}
+li{
+    color: #000;
+}
+ul {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+ul li{
+    width: 24%;
+    height: 40px;
+    float: left;
+    padding: 6px;
+    margin-top: 10px;
+    text-align: center;
+font-size: 20px;
+font-family: Arial, Helvetica, sans-serif;
+border-bottom: none;
+color: #000;
+
+
+}
+ul li a:hover{
+    background-color: rgba(234, 240, 245, 0.973);
+    opacity: 0.5;
+    display: block;
+    text-decoration: none;
+    color: #000;
+}
+#footer{
+    height: 250px;
+width: 100%;
+background-color: #ccc;
+}
+#im1{
+height: 400px;
+width:400x;
+}
+#ch{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background: url('../projet-hotel/doubb.jpg') no-repeat;
+    background-attachment:fixed; 
+    background-size: cover;
+    
+}
+#g{
+    margin-left: 5%;
+}
+.m{
+    width:80px;
+    height:70px;
+    margin: 3px;
+    padding:20px;
+    margin-left: 2%;
+    display: inline;
+
+}
+
+

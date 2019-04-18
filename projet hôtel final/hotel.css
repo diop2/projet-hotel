@@ -1,0 +1,316 @@
+body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+  background-image: url(bg.JPG);
+  background-size: cover;
+  background-attachment: fixed;
+    
+}
+#header{
+height: 60px;
+width: 100%;
+background-color: #ccc;
+opacity: 0.8;
+
+}
+
+.name{
+    text-align: center;
+    }
+
+.logo
+{
+    width: 25%;
+   margin-left: 90px;
+  
+}
+ul {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+
+}
+ul li{
+    width: 22%;
+    height: 40px;
+    float: left;
+    padding: 6px;
+    margin-top: 10px;
+    text-align: center;
+font-size: 20px;
+font-family: Arial, Helvetica, sans-serif;
+text-decoration-color: black;
+font-weight: bolder;
+
+}
+ ul > li > a{ 
+    text-decoration: none;
+} 
+
+ul li a:hover{
+    background-color: rgba(234, 240, 245, 0.973);
+    
+    display: block;
+    text-decoration: none;
+    color: #000;
+}
+
+
+#bienvenu{
+    margin: 0 34%;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 50px;
+    text-transform: capitalize;
+    text-shadow: 5px 5px 5px #333;
+    text-align: center;
+
+}
+
+#diap{
+    margin: 0 auto;
+    width: 80%;
+    height: 590px;
+    border: 3px solid #333;
+    border-radius: 15px;
+    box-shadow: 15px 15px 15px black;
+    background-image: url("diap/aa.jpg");
+
+    -webkit-animation-name: diap;
+    -webkit-animation-duration: 35s;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-direction: normal;
+
+    -moz-animation-name: diap;
+    -moz-animation-duration: 35s;
+    -moz-animation-timing-function : linear;
+    -moz-animation-iteration-count: infinite;
+    -moz-animation-direction: normal;
+
+    animation-name: diap;
+    animation-duration: 35;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+
+}
+@-webkit-keyframes diap /*animation du body*/
+ {
+0%{ background-image: url(connecte.jpg);}
+50%{ background-image: url(gam.jpg);}
+100%{background-image: url(lux.jpg);}
+ }
+
+@-moz-keyframes diap /*animation du body*/
+ {
+0%{ background-image: url(connecte.jpg);}
+50%{ background-image: url(gam.jpg);}
+100%{background-image: url(lux.jpg);}
+
+}
+
+@keyframes diap /*animation du body*/
+ {
+0%{ background-image: url(connecte.jpg);}
+50%{ background-image: url(gam.jpg);}
+100%{background-image: url(lux.jpg);}
+ }
+
+h1{
+    text-align: center;
+    text-shadow: 0px 0px 3px red;
+}
+
+#text /* texte du body*/
+{
+ font-size: 20px;
+ font-family: 'Times New Roman', Times, serif;
+ text-align: center;
+ margin: 120px;
+ background-color: antiquewhite;
+ opacity: 0.8;
+color: #000;
+ font-weight: bold;
+ border-radius: 10px;
+
+}
+
+
+
+.f{
+    width: 40px;
+    float: left;
+    margin: -2px;
+    
+    
+}
+#d{
+    float: right;
+    margin-top: -60px;
+}
+
+
+#footer{
+    height: 250px;
+width: 100%;
+background-color: #ccc;
+
+opacity: 0.8;
+}
+.m{
+
+    margin-left: 5%;
+    display: inline;
+
+}
+#g{
+    margin-left: 4%;
+}
+
+#big-menu
+{
+    text-align: center;
+    font-size: 16px;
+    text-decoration: none;
+    color: rgb(0, 35, 88)
+}
+.referentiel
+{
+    background: #ccc ;
+    width: 235px;
+    height: 250px;
+    border-left: 3px solid #3131d6;
+    padding:10px;
+    text-align: center;
+    box-shadow: #ccc 0 2px 6px 2px;
+    font-size: 17px;
+    letter-spacing: 0.8px;
+}
+
+.container
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+
+
+@media  screen and (max-width : 750px)
+{
+    .container
+    {
+        display: inline-block;
+        flex-direction: column;
+        width: 100%;
+        margin-left: 100%;
+    }
+    iframe
+    {
+    
+        margin:auto;
+        width: 100%;
+
+    }
+    #footer{
+        height: 250px;
+    width: 100%;
+    background-color: #ccc;
+    }
+    .f{
+        width: 40px;
+        float: left;
+        margin: -2px;
+    }   
+    #d{
+        float: right;
+        margin-top: -60px;
+    }
+     
+
+}
+
+
+iframe
+{
+    width: 75%;
+    height: 450px;
+    margin: 50px 0 0 330px;
+}
+.Loc{
+    font-size: 4em;
+    position: relative;
+    font-weight: 600;
+    color: rgba(0, 88, 76, 0.7);
+    letter-spacing: 2px;
+    animation-duration: 7s;
+    animation-name: slidein;
+}
+
+@keyframes slidein /*contact*/
+ {
+    from {
+      margin-left: 100%;
+      width: 300%;
+    }
+    75% {
+      font-size: 300%;
+      margin-left: 25%;
+      width: 150%;
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+  }
+  #big-menu
+  {
+      background: #9797b8dc;
+      width: 150px;
+      margin-left: 48%;
+      font-size: 18px;
+
+  }
+#big-menu:hover
+{
+    background: rgba(204, 204, 204, 0.8);
+}
+
+.Gros
+{
+    font-size: 20px;
+    color: #3131d6;
+}
+i{
+    font-size: 30px;
+     
+}
+
+@media screen and (max-width: 680px )
+{ #diap{ widows: 95%;}
+
+
+#header{
+    height: 100px;
+    width: 100%;
+    background-color: #ccc;
+    
+    }
+
+    ul li { 
+         
+       padding: 0px;
+    margin-top: 5px;
+
+    }
+}
+@media  screen and (max-width :400px)
+{
+    #big-menu
+    {
+        margin-left: 50%;
+    }
+}
+
